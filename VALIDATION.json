@@ -125,12 +125,12 @@
   "core": {
     "status": "passed",
     "scans": 49,
-    "units": 1549,
-    "public_files": 13,
-    "verified_hashes": 12,
+    "units": 1564,
+    "public_files": 14,
+    "verified_hashes": 13,
     "anchor_checks": {
-      "existing_target_references": 7,
-      "explicitly_unresolved_unverified": 144
+      "existing_target_references": 3,
+      "explicitly_unresolved_unverified": 164
     },
     "checks": [
       "JSON identity, fixed source hash and 49-frame coverage",
