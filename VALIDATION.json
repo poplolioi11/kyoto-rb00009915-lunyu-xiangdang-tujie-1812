@@ -1,0 +1,166 @@
+{
+  "verifier": "KYOTO-RB00009915",
+  "status": "passed",
+  "self_test": {
+    "status": "passed",
+    "positive": "non-BMP, decomposed Unicode, XML reserved characters, □, empty text, unknown gap, null column, explicitly unresolved anchor",
+    "negative_tests": [
+      {
+        "case": "change-character",
+        "status": "rejected",
+        "check": "TXT_TEXT_MISMATCH"
+      },
+      {
+        "case": "drop-unit",
+        "status": "rejected",
+        "check": "TXT_UNIT_COUNT"
+      },
+      {
+        "case": "swap-unit",
+        "status": "rejected",
+        "check": "TXT_ORDER"
+      },
+      {
+        "case": "source-hash",
+        "status": "rejected",
+        "check": "SOURCE_HASH"
+      },
+      {
+        "case": "manifest-url",
+        "status": "rejected",
+        "check": "SOURCE_MANIFEST_URL"
+      },
+      {
+        "case": "catalogue-url",
+        "status": "rejected",
+        "check": "SOURCE_CATALOGUE_URL"
+      },
+      {
+        "case": "source-page-url",
+        "status": "rejected",
+        "check": "SOURCE_PAGE_URL"
+      },
+      {
+        "case": "source-image-hash",
+        "status": "rejected",
+        "check": "SOURCE_IMAGE_HASH"
+      },
+      {
+        "case": "source-image-size",
+        "status": "rejected",
+        "check": "SOURCE_IMAGE_SIZE"
+      },
+      {
+        "case": "figures-not-array",
+        "status": "rejected",
+        "check": "PAGE_METADATA"
+      },
+      {
+        "case": "figure-not-object",
+        "status": "rejected",
+        "check": "PAGE_METADATA"
+      },
+      {
+        "case": "exclusions-not-array",
+        "status": "rejected",
+        "check": "PAGE_METADATA"
+      },
+      {
+        "case": "exclusion-not-object",
+        "status": "rejected",
+        "check": "PAGE_METADATA"
+      },
+      {
+        "case": "invented-zero-column",
+        "status": "rejected",
+        "check": "COLUMN_INDEX"
+      },
+      {
+        "case": "unresolved-anchor-position",
+        "status": "rejected",
+        "check": "ANCHOR_UNRESOLVED"
+      },
+      {
+        "case": "unresolved-anchor-status",
+        "status": "rejected",
+        "check": "ANCHOR_UNRESOLVED"
+      },
+      {
+        "case": "unresolved-anchor-origin",
+        "status": "rejected",
+        "check": "ANCHOR_UNRESOLVED"
+      },
+      {
+        "case": "missing-normal-anchor",
+        "status": "rejected",
+        "check": "ANCHOR_REF"
+      },
+      {
+        "case": "normal-anchor-position",
+        "status": "rejected",
+        "check": "ANCHOR_INDEX"
+      },
+      {
+        "case": "uncertainty-index",
+        "status": "rejected",
+        "check": "UNCERTAINTY_INDEX"
+      },
+      {
+        "case": "duplicate-id",
+        "status": "rejected",
+        "check": "DUPLICATE_ID"
+      },
+      {
+        "case": "tei-header-edition",
+        "status": "rejected",
+        "check": "TEI_METADATA"
+      },
+      {
+        "case": "XXE",
+        "status": "rejected",
+        "check": "XML_UNSAFE"
+      }
+    ]
+  },
+  "core": {
+    "status": "passed",
+    "scans": 49,
+    "units": 1549,
+    "public_files": 13,
+    "verified_hashes": 12,
+    "anchor_checks": {
+      "existing_target_references": 7,
+      "explicitly_unresolved_unverified": 144
+    },
+    "checks": [
+      "JSON identity, fixed source hash and 49-frame coverage",
+      "unique unit ids and scan order",
+      "Unicode code-point uncertainty indexes; resolved anchor reference/index integrity",
+      "explicitly unresolved anchors retained without reference/index claims",
+      "all □ have uncertainty records",
+      "exact JSON/TXT/TEI text, gaps, unit order and page references",
+      "DOCTYPE/entity rejection before XML parsing",
+      "public allowlist and SHA256SUMS closure"
+    ],
+    "limitations": [
+      "No character accuracy or independent-review claim is verified.",
+      "Page figures and excluded_nonoriginal_regions are JSON metadata; only their array/object shape is checked, not diagram completeness, label references, coordinates or exclusion accuracy. They are not serialized into TXT/TEI.",
+      "The artifact/privacy screen detects specified file types, names and literal patterns; it is not a human content review."
+    ]
+  },
+  "optional_schemas": [
+    {
+      "schema": "TEI Relax NG",
+      "status": "passed",
+      "schema_sha256": "b0f115095ead2ccc6933aa3365c6f4a82cba3b2ec7eee7f76bb616d7a63b7e48",
+      "diagnostic": "PACKAGE/book.tei.xml validates"
+    },
+    {
+      "schema": "CFF",
+      "status": "passed",
+      "schema_sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b"
+    }
+  ],
+  "checked_date": "2026-10-24",
+  "scope": "Structure, exact JSON/TXT/TEI roundtrip, fixed-source metadata, public whitelist/privacy patterns and official TEI/CFF schemas. Image-reading and reuse-policy acceptance are separate; no expert review."
+}

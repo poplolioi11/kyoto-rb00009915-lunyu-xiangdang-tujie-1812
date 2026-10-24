@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "請引用資料版本與單位ID，並另引京都大学原件；AI複核不是專家定本。"
+type: dataset
+title: "論語郷黨圖解（1812自筆本）：KYOTO-RB00009915 分層影像轉錄"
+authors:
+  - name: "poplolioi11／一卦 yigua.art"
+version: "v0.1.0"
+date-released: 2026-10-24
+url: "https://github.com/poplolioi11/kyoto-rb00009915-lunyu-xiangdang-tujie-1812/releases/tag/v0.1.0"
+repository-code: "https://github.com/poplolioi11/kyoto-rb00009915-lunyu-xiangdang-tujie-1812"
+license: CC-BY-4.0
+abstract: "歷史正文公有領域；本次原創編排與說明CC BY4.0，既有驗證程式適配版0BSD。不含館藏影像。49幀來源範圍、疑字與未知字數區域明示；未宣稱全球首次或專家定本。"
+references:
+  - type: book
+    title: "論語郷黨圖解"
+    authors:
+      - name: "宮田華龍（五渓）"
+    year: 1812
+    url: "https://rmda.kulib.kyoto-u.ac.jp/item/rb00009915"
