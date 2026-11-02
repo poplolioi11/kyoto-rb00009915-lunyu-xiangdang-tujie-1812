@@ -1,10 +1,15 @@
-# 論語郷黨圖解 · KYOTO-RB00009915 · v0.2.0
+# 論語郷黨圖解（1812年序；京都大學RB00009915）/ Rongo kyōtō zukai: Transcription dataset
 
 ## 摘要 / Abstract
 
-本資料以京都大學附屬圖書館谷村文庫藏、歸於宮田華龍（五渓）的1812年自筆本《論語郷黨圖解》（RB00009915）為底本，提供v0.2.0獨立AI影像複核文字。49幅固定影像經另次讀字、比對與回圖裁定，產生1,564個分層單位及定位訂正，保留原序、註釋、圖中文字與未解讀處，供儒學、漢文訓讀及數位人文研究檢索與後續校訂。此為保留疑讀的研究資料，細部點號與訓點仍有未解範圍，未完成人類雙校。
+《論語郷黨圖解》是宮田華龍（五渓）帶1812年作者題辭的自筆本，以《論語》鄉黨篇為中心，結合經文、注說與禮制、宮室等圖示解說孔子行止，可供江戶儒學、禮制圖解及漢文訓讀研究。本資料依京都大學附屬圖書館谷村文庫RB00009915（1-66/ロ/6），提供全49個固定影像幀的AI複核文字，以JSON、TXT及TEI P5 XML保存1,564個分層單位、原序、圖中文字、來源定位與訂正。本版仍有疑讀及未解的細部圈點、訓點，未完成人類雙校。
 
-This dataset presents version 0.2.0 of an independently AI-reviewed transcription of 論語郷黨圖解, an 1812 autograph manuscript attributed to 宮田華龍（五渓）, held in Kyoto University Main Library's Tanimura Collection as RB00009915. Separate readings, comparison and source-image adjudication across 49 fixed frames produced 1,564 layered units and located corrections, preserving the sequence, notes, diagram labels and unresolved readings. The material supports research on Confucianism, kanbun reading and digital humanities, as well as later correction. It remains a provisional research transcription: fine punctuation and kundoku marks include unresolved ranges, and human double collation has not been completed.
+Rongo kyōtō zukai is Miyata Karyū’s (Gokei’s) autograph manuscript with an authorial preface dated 1812, explaining Confucius’s conduct in the Analects’ Xiangdang chapter through canonical passages, commentary and diagrams of ritual institutions and buildings. It supports research on Edo Confucianism, illustrated ritual scholarship and kanbun reading. Using Kyoto University Main Library’s Tanimura Collection item RB00009915 (1-66/ロ/6), this dataset provides AI-reviewed text across all 49 fixed frames in JSON, TXT and TEI P5 XML, retaining 1,564 layered units, source order, diagram labels, locators and corrections. Uncertain readings and fine punctuation and kundoku marks remain unresolved, and human double collation is incomplete.
+
+原件與書目入口 / Source witness and catalogue:
+
+- [原件與館藏書目 / Source witness and catalogue](https://rmda.kulib.kyoto-u.ac.jp/item/rb00009915)
+- [IIIF manifest](https://rmda.kulib.kyoto-u.ac.jp/iiif/metadata_manifest/RB00009915/manifest.json)
 
 宮田華龍（五渓）《論語郷黨圖解》，文化九年（1812）著者題辞、自筆本，京都大学附属図書館藏，谷村文庫，索書號1-66/ロ/6。整理署名：**poplolioi11／一卦 yigua.art**。版本日期：2026-10-24（Asia/Taipei）。
 
