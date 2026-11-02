@@ -1,5 +1,11 @@
 # 論語郷黨圖解 · KYOTO-RB00009915 · v0.2.0
 
+## 摘要 / Abstract
+
+本資料以京都大學附屬圖書館谷村文庫藏、歸於宮田華龍（五渓）的1812年自筆本《論語郷黨圖解》（RB00009915）為底本，提供v0.2.0獨立AI影像複核文字。49幅固定影像經另次讀字、比對與回圖裁定，產生1,564個分層單位及定位訂正，保留原序、註釋、圖中文字與未解讀處，供儒學、漢文訓讀及數位人文研究檢索與後續校訂。此為保留疑讀的研究資料，細部點號與訓點仍有未解範圍，未完成人類雙校。
+
+This dataset presents version 0.2.0 of an independently AI-reviewed transcription of 論語郷黨圖解, an 1812 autograph manuscript attributed to 宮田華龍（五渓）, held in Kyoto University Main Library's Tanimura Collection as RB00009915. Separate readings, comparison and source-image adjudication across 49 fixed frames produced 1,564 layered units and located corrections, preserving the sequence, notes, diagram labels and unresolved readings. The material supports research on Confucianism, kanbun reading and digital humanities, as well as later correction. It remains a provisional research transcription: fine punctuation and kundoku marks include unresolved ranges, and human double collation has not been completed.
+
 宮田華龍（五渓）《論語郷黨圖解》，文化九年（1812）著者題辞、自筆本，京都大学附属図書館藏，谷村文庫，索書號1-66/ロ/6。整理署名：**poplolioi11／一卦 yigua.art**。版本日期：2026-10-24（Asia/Taipei）。
 
 本版為**AI獨立複核版；仍保留未解缺漏**。來源全部49影像幀均有明確處理狀態；可見原書90面，包含封面及空白，保守上界98面，未截取長書片段。影像幀號、葉碼與書面數分開記錄。全冊各區已嘗試不代表每字辨明，部分細訓點及草寫仍只有定位缺口；AI複核不等於專家定本。
