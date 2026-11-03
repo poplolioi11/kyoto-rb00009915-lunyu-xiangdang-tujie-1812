@@ -1,4 +1,4 @@
-# 論語郷黨圖解（1812年序；京都大學RB00009915）/ Rongo kyōtō zukai: Transcription dataset
+# 論語郷黨圖解(1812年序;京都大學RB00009915) / Rongo kyōtō zukai [Illustrated commentary on the Xiangdang chapter of the Analects]: Transcription dataset
 
 ## 摘要 / Abstract
 
@@ -10,6 +10,18 @@ Rongo kyōtō zukai is Miyata Karyū’s (Gokei’s) autograph manuscript with a
 
 - [原件與館藏書目 / Source witness and catalogue](https://rmda.kulib.kyoto-u.ac.jp/item/rb00009915)
 - [IIIF manifest](https://rmda.kulib.kyoto-u.ac.jp/iiif/metadata_manifest/RB00009915/manifest.json)
+
+### 題名與語言說明 / Title and language notes
+
+方括號英譯為編者意譯，非館目正式題名。Bracketed English titles are editorial discovery glosses, not official catalogue English titles.
+
+館目原羅馬字題名：「Rongo kyōtō zukai」。展示：「Rongo kyōtō zukai」；僅首字母大小寫依展示規則調整，保留館目拼法及長音符號。
+
+題名來源 / Title source: [https://rmda.kulib.kyoto-u.ac.jp/item/rb00009915](https://rmda.kulib.kyoto-u.ac.jp/item/rb00009915)
+
+語言層次 / Language layers: 原文保留既有 lzh；本輪未作全書重新語體判定。 eng 標記現行英文摘要，不表示固定封存附件全部為英文。
+
+語言來源 / Language source: [https://rmda.kulib.kyoto-u.ac.jp/item/rb00009915](https://rmda.kulib.kyoto-u.ac.jp/item/rb00009915)
 
 宮田華龍（五渓）《論語郷黨圖解》，文化九年（1812）著者題辞、自筆本，京都大学附属図書館藏，谷村文庫，索書號1-66/ロ/6。整理署名：**poplolioi11／一卦 yigua.art**。版本日期：2026-10-24（Asia/Taipei）。
 
