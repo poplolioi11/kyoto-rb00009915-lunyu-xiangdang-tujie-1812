@@ -1,9 +1,12 @@
 cff-version: 1.2.0
 message: "請引用資料版本與單位ID，並另引京都大学原件；AI複核不是專家定本。"
 type: dataset
-title: "論語郷黨圖解（1812自筆本）：KYOTO-RB00009915 分層影像轉錄"
+title: "論語郷黨圖解(1812年序;京都大學RB00009915) / Rongo kyōtō zukai [Illustrated commentary on the Xiangdang chapter of the Analects]: Transcription dataset"
 authors:
-  - name: "poplolioi11／一卦 yigua.art"
+  - family-names: Chu
+    given-names: Chen-Yu
+    orcid: https://orcid.org/0009-0003-9738-6914
+    website: https://github.com/poplolioi11
 version: "v0.2.0"
 date-released: 2026-10-24
 url: "https://github.com/poplolioi11/kyoto-rb00009915-lunyu-xiangdang-tujie-1812/releases/tag/v0.2.0"
